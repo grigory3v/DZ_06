@@ -54,7 +54,7 @@ namespace Task_02
 
                     if (A[i + 1, j] == B[i + 1, j])
                     {
-                        Console.WriteLine($"точкa пересечения двух прямых = ({Math.Round(A[i, j],2)} ; {Math.Round(A[i + 1, j], 5)})");
+                        Console.WriteLine($"точкa пересечения двух прямых = ({Math.Round(A[i, j], 2)} ; {Math.Round(A[i + 1, j], 5)})");
                     }
                 }
             }
